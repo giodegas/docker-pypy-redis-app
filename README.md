@@ -1,4 +1,4 @@
-# docker-pypy-app
-Docker container for PyPy application development
+# docker-pypy-redis-app
+Docker container for PyPy + Redis application development
 
-This is a base to build-up PyPy self contained applications running in a docker container.
+This is a base to build-up PyPy & Redis self contained applications running in a docker container.
