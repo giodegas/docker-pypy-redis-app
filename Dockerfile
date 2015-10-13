@@ -6,6 +6,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		
 RUN pip install redis
 RUN /etc/init.d/redis-server start
-RUN netstat -natup|grep LIST
+RUN netstat -natup
 
 EXPOSE 6379/tcp 
